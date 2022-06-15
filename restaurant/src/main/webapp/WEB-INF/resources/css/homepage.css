@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --hover-color: #005226;
+    --main-color: #006a31;
+}
+body{
+    font-family: var(--sm-font);
+}
+
+/* navbar */
+.navbar{
+    -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img{
+    width: 30px;
+}
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+.nav-link:hover{
+    background-color: var(--hover-color)!important;
+}
+.nav-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+.submenu-item{
+    padding:5px;
+    padding-left:10px;
+    background-color:#fff;
+}
+.submenu-item a{
+    font-size:18px;
+    color:#000;
+}
+.submenu-item:hover a{
+    color:var(--main-color);
+}
+
+/* button */
+.btn:not(.nav-btns button){
+    background-color: #fff;
+    color: rgb(85, 85, 85);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgb(85, 85, 85);
+}
+.btn:not(.nav-btns button):hover{
+    background-color: var(--hover-color);
+    color: #fff;
+    border-color: var(--main-color);
+}
+
+/* header */
+#header .detail-box {
+    color: #ffffff;
+    margin-bottom: 145px;
+}
+  
+#header .detail-box h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+  
+#header .detail-box p {
+    font-size: 26px;
+}
+  
+#header .detail-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: var(--main-color);
+    color: #ffffff;
+    border-radius: 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+    margin-top: 10px;
+}
+  
+#header .detail-box a:hover {
+    background-color: var(--hover-color);
+}
+
+/* new menu */
+  .special-img span{
+    top: 20px;
+    right: 20px;
+}
+.special-list .btn{
+    padding: 8px 20px!important;
+}
+.special-img img{
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.special-img:hover img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+.py-5 h2 {
+    font-family: open sans, serif;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+/* title */
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: var(--main-color);
+    left: -20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+/* about */
+#about{
+    background-color: rgba(22, 71, 16, 0.05);
+}
+
+/* footer section*/
+.footer_section {
+    background-color: var(--main-color);
+    color: #ffffff;
+    padding: 75px 0 40px 0;
+    text-align: center;
+  }
+  
+  .footer_section h4 {
+    font-size: 28px;
+  }
+  
+  .footer_section h4,
+  .footer_section{
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family: open sans, cursive;
+    text-transform: uppercase;
+  }
+  
+  .footer_section p {
+    color: #dbdbdb;
+    font-family: var(--sm-font);
+  }
+  
+  .footer_section .footer-col {
+    margin-bottom: 30px;
+  }
+  
+  .footer_section .footer_contact .contact_link_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .footer_section .footer_contact .contact_link_box a {
+    margin: 5px 0;
+    color: #ffffff;
+  }
+  
+  .footer_section .footer_contact .contact_link_box a i {
+    margin-right: 5px;
+  }
+  
+  .footer_section .footer_contact .contact_link_box a:hover {
+    background-color: var(--hover-color)!important;
+  }
+
+/* media queries */
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}

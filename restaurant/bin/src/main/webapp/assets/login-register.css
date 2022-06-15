@@ -1,0 +1,82 @@
+:root{
+    --primary-color:#006a31;
+}
+.container-fluid{
+    background-color: #f6f6f6;
+}
+.page-content{
+    padding: 72px 0;
+    width: 1104px;
+    margin: 0 auto;
+}
+.row{
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    width: 402px;
+    background-color: #fff;
+    padding: 32px;
+    box-shadow: 1px 2px 4px #666;
+}
+.wrapper .btn{
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 3px;
+}
+
+.form-content{
+    margin: auto;
+}
+.wrapper .form-control{
+    font-size: 16px;
+}
+.sub-info{
+    margin-top: 32px;
+    border-top: 1px solid #ccc;
+    padding-top: 16px;
+}
+.sub-info .nav-link{
+    display: inline-block;
+    padding: 0 5px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.sub-info p{
+    font-size: 18px;
+    color: #666;
+}
+.form-control{
+    overflow: hidden;
+    outline: none;
+}
+.form-control:focus{
+    outline: 0;
+    border-color: #ccc;
+}
+/* Left side */
+.text{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.text h3{
+    color: var(--primary-color);
+}
+.text p{
+    font-size: 20px;
+}
+.img{
+    margin-top: 48px;
+    text-align: center;
+}
+.img img{
+    width: 250px;
+    height: auto;
+    position: relative;
+}
+
+#register{
+    display: none;
+}

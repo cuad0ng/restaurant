@@ -1,0 +1,53 @@
+insert into `restaurant_db`.`product_category`(`name`) value ('Truyền thống');
+insert into `restaurant_db`.`product_category`(`name`) value ('Tráng miệng');
+insert into `restaurant_db`.`product_category`(`name`) value ('Đặc sản');
+
+select * from product;
+
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Che Buoi', 'Pomelo Sweet Soup', '../resources/images/asset/30.jpg', 30000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Pho Bo', '', '../resources/images/asset/1.jpg', 300000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Pho Bo', '', '../resources/images/asset/1.jpg', 300000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Pho Ga', 'Vietnamese Chicken Noodles Soup', '../resources/images/asset/2.jpg', 250000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('No Fancy Pho Bo Sot Vang', 'Vietnamese Pho With Red Wine Beef Stew', '../resources/images/asset/3.jpg', 500000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Bun Rieu', 'Vietnamese Crab Based Soup Rice Vermicelli', '../resources/images/asset/4.jpg', 200000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Bun Bo Hue', 'Hue Style Rice Vermicelli With Beef', '../resources/images/asset/5.jpg', 450000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Bun Thang', 'Rice Noodles With Chicken, Eggs, And Pork', '../resources/images/asset/6.jpg', 280000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Bum Mam', 'Vietnamese Fermented Fish Noodle Soup', '../resources/images/asset/7.jpg', 300000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Bun Thit Nuong', 'Grilled Pork/Beef With Rice Noodles', '../resources/images/asset/8.jpg', 300000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Bun Cha', 'Noodles with Char-Grilled Meat', '../resources/images/asset/9.jpg', 300000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Simple Bun Dau Mam Tom', 'Shrimp Sauce, Fried Tofu And Rice Noodles', '../resources/images/asset/10.jpg', 300000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Cao Lau', 'Cao Lau Noodles', '../resources/images/asset/11.jpg', 300000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Mi Quang', 'Quang Noodles', '../resources/images/asset/12.jpg', 300000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Banh Chung', 'Square Sticky Rice Cake', '../resources/images/asset/13.jpg', 30000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Banh Mi', '', '../resources/images/asset/14.jpg', 30000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Banh Bot Loc', 'Translucent Vietnamese Dumplings', '../resources/images/asset/15.jpg', 30000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Banh Xeo', 'Vietnamese Crispy Crepe/Pancake', '../resources/images/asset/16.jpg', 100000, 25, 2);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Banh Trang Tron', 'Mixed Rice Paper', '../resources/images/asset/17.jpg', 100000, 25, 2);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Banh Cuon ', 'Vietnamese Steamed Rice Rolls', '../resources/images/asset/18.jpg', 500000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Com Tam ', 'Broken Rice With Grilled Ribs', '../resources/images/asset/19.jpg', 50000, 25, 3);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values (' Com Chien Duong Chau', 'Fried Rice With Veggies', '../resources/images/asset/20.jpg', 100000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Nem Ran', 'Fried Spring Roll/Summer Roll', '../resources/images/asset/21.jpg', 100000, 25, 2);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Xoi Thap Cam','Savory Sticky Rice', '../resources/images/asset/22.jpg', 400000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values (' Goi Cuon ','Spring Roll)', '../resources/images/asset/23.jpg', 312000, 25, 3);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Pho Cuon','Rolled Pho)', '../resources/images/asset/24.jpg', 400000, 25, 3);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Bo Luc Lac ','French-Inspired Shaking Beef With Veggies', '../resources/images/asset/25.jpg', 100000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Thit Kho Tau ','Caramelized Braised Pork With Eggs', '../resources/images/asset/26.jpg', 200000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Ca Kho To','(Braised Fish In A Clay Pot', '../resources/images/asset/27.jpg', 300000, 25, 3);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Gia Cay ','Braised Pork With Galangal/False Dog Meat', '../resources/images/asset/28.jpg', 300000, 25, 1);
+insert into `restaurant_db`.`product` ( name, description, img, price, amount, cate_id) values ('Sua Chua Nep Cam','Black Glutinous Rice Yogurt', '../resources/images/asset/29.jpg', 100000, 25, 2);
+
+
+
+
+
+
+insert into dining_table (status,customer_id) value ('active',null)
+insert into dining_table (status,customer_id) value ('active',null)
+insert into dining_table (status,customer_id) value ('active',null)
+insert into dining_table (status,customer_id) value ('active',null)
+insert into dining_table (status,customer_id) value ('active',null)
+insert into dining_table (status,customer_id) value ('active',null)
+insert into dining_table (status,customer_id) value ('active',null)
+insert into dining_table (status,customer_id) value ('active',null)
+insert into dining_table (status,customer_id) value ('active',null)
+insert into dining_table (status,customer_id) value ('active',null)
